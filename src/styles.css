@@ -1,0 +1,58 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: #ec125f;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --buttons-color: pink;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 50px;
+  background-color: var(--buttons-color);
+}
+
+
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-link {
+  background-color: var(--secondary-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.about-link {
+  background-color: var(--secondary-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+</style>
